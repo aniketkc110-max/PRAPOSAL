@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LTM Ultra Outing Proposal</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <h1>LTM Educational Outing 2026</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Premium School Trip Proposal</h2>
+    <p>55 Students | Std 5–8 | Budget Limit ₹150</p>
+    <button onclick="scrollToProposal()">Explore Plans</button>
+</section>
+
+<section class="stats">
+    <div class="stat">
+        <h3 class="counter" data-target="55">0</h3>
+        <p>Students</p>
+    </div>
+    <div class="stat">
+        <h3 class="counter" data-target="3">0</h3>
+        <p>Proposals</p>
+    </div>
+    <div class="stat">
+        <h3 class="counter" data-target="150">0</h3>
+        <p>Budget Limit ₹</p>
+    </div>
+</section>
+
+<section id="proposal-section" class="proposal-container">
+
+<h2>Select Proposal</h2>
+
+<div class="buttons">
+    <button onclick="showProposal(1)">Proposal 1</button>
+    <button onclick="showProposal(2)">Proposal 2</button>
+    <button onclick="showProposal(3)">Proposal 3</button>
+</div>
+
+<div id="proposal-content" class="proposal-card">
+    <!-- Dynamic Content -->
+</div>
+
+</section>
+
+<footer>
+    <p>Presented to Staff | LTM Innovation Team</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
